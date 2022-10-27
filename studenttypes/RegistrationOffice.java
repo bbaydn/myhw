@@ -33,19 +33,19 @@ public class RegistrationOffice {
 		int i = r.nextInt(6);
 		switch (i) {
 		case 1:
-			student = new VocationalStudent(156, "Busra", 1997, new Date(1966, 05, 5), "Computer Science");
+			student = new VocationalStudent(156, "Busra", 1997, new Date(1966, 01, 6), "Computer Science");
 			break;
 		case 2:
-			student = new GraduateStudent(245, "Ece", 2000, new Date(1970, 12, 1), "Engineer", "Kemal Tez");
+			student = new GraduateStudent(169, "Asli", 2000, new Date(1980, 04, 15), "Food", "Defne Kasik");
 			break;
 		case 3:
-			student = new UndergraduateStudent(123, "Semih", 1998, new Date(1980, 05, 2), "Physics", "Biolog");
+			student = new UndergraduateStudent(147, "Mehmet", 1994, new Date(1970, 02, 2), "Mathematics", "Mathematician");
 			break;
 		case 4:
-			student = new MasterStudent(2220, "Esin", 2000, new Date(1980, 11, 3), "Engineer", "Sila Kara");
+			student = new MasterStudent(220, "Sema", 2007, new Date(1975, 11, 6), "Chemistry", "Hande Bilal");
 			break;
 		default:
-			student = new PhdStudent(345, "Derin", 1999, new Date(1975, 11, 6), "Engineer", "Burcu Cicek", true);
+			student = new PhdStudent(345, "Defne", 1999, new Date(1969, 10, 8), "Engineer", "Fatih Tasci", true);
 			break;
 		}
 
